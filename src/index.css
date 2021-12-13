@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-list li {
+  padding: 10px 15px;
+}
+
+/* Vedio start*/
+
+.video-player-container {
+  width: 80vw;
+  margin: 0 auto 0 auto;
+}
+
+.video-item-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  align-content: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.video-item {
+  flex-basis: 48%;
+  min-height: 200px;
+  margin: 5px;
+  border: 1px dashed rgba(15, 20, 130, 0.5);
+}
